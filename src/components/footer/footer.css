@@ -1,12 +1,111 @@
 .footer{
-    display: flex;
+    position: absolute;
+    width: 1400px;
+    height: 50px;
+    background: linear-gradient(0deg, #272C34, #272C34), #272C34;
+    backdrop-filter: blur(10px);
+    padding: 20px;
 }
 .footerContainter{
-    display: flex;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    height: 80px;
+    justify-content: center;
 }
-.footer-info{
+.footerLeft{
     display: flex;
+    flex-direction: row;
+    width: 394px;
+    height: 0px;
+    gap: 20px;
 }
-.footer-map{
+.footerLeftName{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 198px;
+    height: 0px;
 }
+.footerLeftLogo{
+    display: flex;
+    flex-direction: row;
+    width:156px;
+    height: 0px;
+    margin-left: 175px;
+    margin-right: 20px;
+}
+.footerLeftLogoName1{
+    font-family: 'Helvetica', sans-serif;
+    color: #BABEC6;
+    font-size: 32px;
+}
+.footerLeftLogoName2{
+    font-family: 'Helvetica', sans-serif;
+    color: #5A616B;
+    font-size: 32px;
+}
+
+.vl {
+    width: 32px;
+    height: 0px;
+    margin-top: 20px;
+    border: 1px solid #DCDFE3;
+    transform: rotate(90deg);
+}
+
+.footerLeftNameH{
+    width: 250px;
+    height: 22px;
+    right: 57px;
+    top: calc(50% - 30px/2 - 0.5px);
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BABEC6;
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 30px;
+    width: 400px;
+    right: 175px;
+    height: 0px;
+}
+.footerRightMain{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.footerRightL{
+    width: 250px;
+    left: 1196px;
+    top: calc(50% - 25px/2 + 58.5px);
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footerRightH{
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 25px; */
+    /* identical to box height, or 179% */
+
+    text-decoration-line: underline;
+
+    color: #967AFF;
+}
+
+
